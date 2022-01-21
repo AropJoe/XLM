@@ -69,7 +69,7 @@ If you want to **play around with the model and its representations**, just down
 Our **XLM** PyTorch English model is trained on the same data than the pretrained **BERT** [TensorFlow](https://github.com/google-research/bert) model (Wikipedia + Toronto Book Corpus). Our implementation does not use the next-sentence prediction task and has only 12 layers but higher capacity (665M parameters). Overall, our model achieves a better performance than the original BERT on all GLUE tasks (cf. table above for comparison).
 
 ### Train your own monolingual BERT model
-Now it what follows, we will explain how you can train a similar model on your own data.
+Now in what follows, we will explain how you can train a similar model on your own data.
 
 ### 1. Preparing the data
 First, get the monolingual data (English Wikipedia, the [TBC corpus](https://yknzhu.wixsite.com/mbweb) is not hosted anymore).
